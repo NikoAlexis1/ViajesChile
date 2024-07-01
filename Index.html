@@ -43,7 +43,7 @@
                         <a class="nav-link text-light" href="#Destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contacto</a>
+                        <a class="nav-link text-light" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
 
     <!-- Quienes Somos -->
     <section id="QuienesSomos">
-        <div class="container fw-lighter d-none d-sm-block">
+        <div class="container fw-lighter d-none d-sm-block mb-4 mt-4">
             <h1 class="text-center pt-3 fs-3 fw-lighter">¿QUIENES SOMOS?</h1>
             <hr>
             <div class="container mt-4">
@@ -161,6 +161,32 @@
         </div>
     </section>
 
+    <!-- Contacto  -->
+    <section id="Contacto">
+        <div class="container mt-4 mb-4">
+            <h1 class="text-center pt-3 fs-3 fw-lighter">CONTACTO</h1>
+            <hr>
+            <div class="container">
+                <form action="" >
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input id="nombre" class="form-control" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input id="asunto" class="form-control" type="text" placeholder="Asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea id="mensaje" class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-info mb-3 text-light" id="enviarcontacto">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
