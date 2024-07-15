@@ -12283,4 +12283,14 @@ i {
   font-size: 25px;
   margin: 10px;
   color: #fff;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item {
+    height: 300px;
+  }
 }/*# sourceMappingURL=main.css.map */
