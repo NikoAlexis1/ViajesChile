@@ -12266,13 +12266,9 @@ textarea.form-control-lg {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #000000;
   color: #fff;
-}
-
-footer {
-  background-color: rgb(13, 202, 240);
 }
 
 .carousel-item {
