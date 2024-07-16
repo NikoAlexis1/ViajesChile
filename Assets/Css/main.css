@@ -12271,18 +12271,8 @@ body {
   color: #fff;
 }
 
-#Destacados .card-body {
-  display: none;
-}
-
 footer {
   background-color: rgb(13, 202, 240);
-}
-
-i {
-  font-size: 25px;
-  margin: 10px;
-  color: #fff;
 }
 
 .carousel-item {
@@ -12292,5 +12282,14 @@ i {
 @media screen and (max-width: 768px) {
   .carousel-item {
     height: 300px;
+  }
+}
+.card {
+  width: 45%;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 55%;
   }
 }/*# sourceMappingURL=main.css.map */
